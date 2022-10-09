@@ -35,9 +35,31 @@ public class Simulation {
         return false;
     }
 
-    public void loopUntilPlayerSucceed() {
-        while(!this.nextRound()){
-        }
+    public void loopUntilPlayerSucceed(long maxIter) {
+        long i = 0;
+        long start = System.currentTimeMillis();
+        boolean response;
+
+        do{
+            response = this.nextRound();
+            if (i>=maxIter)
+                break;
+            i++;
+        }while(!response);
+
+        long end = System.currentTimeMillis();
+        long gameTime = end - start;
+        long minutes = gameTime / 60000;
+        gameTime %= 60000;
+        long seconds = gameTime / 1000;
+        gameTime %= 1000;
+        long milliseconds = gameTime;
+        logger.log(String.format("%02d:%02d.%d", minutes, seconds, milliseconds));
+        if (response)
+            logger.log("The player win");
+        else
+            logger.log("The player lose");
+
     }
 
 }
