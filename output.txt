@@ -2,3 +2,25 @@
 2022-10-10 17:42:53.488 HumanPlayer Enter your choice :  
 2022-10-10 17:43:35.596 HumanPlayer The entered number is lower than the number
 2022-10-10 17:43:35.597 HumanPlayer Enter your choice :  
+2022-10-10 18:39:10.740 HumanPlayer Enter your choice :  
+2022-10-10 18:39:19.133 HumanPlayer The entered number is lower than the number
+2022-10-10 18:39:19.137 HumanPlayer Enter your choice :  
+2022-10-10 18:39:23.730 HumanPlayer the entered number is greater than the number
+2022-10-10 18:39:23.732 HumanPlayer Enter your choice :  
+2022-10-10 18:39:27.876 HumanPlayer The entered number is lower than the number
+2022-10-10 18:39:27.879 HumanPlayer Enter your choice :  
+2022-10-10 18:39:33.216 HumanPlayer The entered number is lower than the number
+2022-10-10 18:39:33.218 HumanPlayer Enter your choice :  
+2022-10-10 18:39:38.125 HumanPlayer The entered number is lower than the number
+2022-10-10 18:39:38.128 HumanPlayer Enter your choice :  
+2022-10-10 18:39:41.602 HumanPlayer The entered number is lower than the number
+2022-10-10 18:39:41.604 HumanPlayer Enter your choice :  
+2022-10-10 18:40:03.015 HumanPlayer The entered number is lower than the number
+2022-10-10 18:40:03.017 HumanPlayer Enter your choice :  
+2022-10-10 18:40:07.075 HumanPlayer The entered number is lower than the number
+2022-10-10 18:40:07.077 HumanPlayer Enter your choice :  
+2022-10-10 18:40:11.082 HumanPlayer the entered number is greater than the number
+2022-10-10 18:40:11.084 HumanPlayer Enter your choice :  
+2022-10-10 18:40:14.761 Simulation You guessed the right number
+2022-10-10 18:40:14.767 Simulation 01:04.119
+2022-10-10 18:40:14.769 Simulation The player win
