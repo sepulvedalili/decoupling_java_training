@@ -7,10 +7,11 @@ import fr.lernojo.logger.LoggerFactory;
 import java.util.Scanner;
 
 public class HumanPlayer implements Player {
-    private final Logger logger = LoggerFactory.getLogger("player");
+    private final Logger logger = LoggerFactory.getLogger("HumanPlayer");
     @Override
     public long askNextGuess() {
-        logger.log("Enter your choice");
+
+        logger.log("Enter your choice :  ");
         Scanner scan=new Scanner(System.in);
         return scan.nextLong();
     }

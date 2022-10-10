@@ -5,7 +5,7 @@ import fr.lernojo.logger.LoggerFactory;
 
 public class Simulation {
 
-    private final Logger logger = LoggerFactory.getLogger("simulation");
+    private final Logger logger = LoggerFactory.getLogger("Simulation");
     private final Player player;
     private long numberToGuess;
 

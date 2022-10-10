@@ -6,7 +6,7 @@ import fr.lernojo.logger.LoggerFactory;
 import java.security.SecureRandom;
 
 public class Launcher {
-    private static final Logger logger = LoggerFactory.getLogger("launcher");
+    private static final Logger logger = LoggerFactory.getLogger("Launcher");
     public static void main(String[] args){
         Simulation simulation;
 
