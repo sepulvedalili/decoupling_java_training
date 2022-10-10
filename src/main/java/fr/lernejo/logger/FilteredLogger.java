@@ -1,4 +1,4 @@
-package fr.lernojo.logger;
+package fr.lernejo.logger;
 
 import java.util.function.Predicate;
 

@@ -1,4 +1,4 @@
-package fr.lernojo.logger;
+package fr.lernejo.logger;
 
 import static java.nio.file.StandardOpenOption.APPEND;
 import static java.nio.file.StandardOpenOption.CREATE;

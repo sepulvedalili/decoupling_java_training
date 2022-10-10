@@ -1,7 +1,7 @@
-package fr.lernojo.guessgame;
+package fr.lernejo.guessgame;
 
-import fr.lernojo.logger.Logger;
-import fr.lernojo.logger.LoggerFactory;
+import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.LoggerFactory;
 
 public class Simulation {
 

@@ -1,4 +1,4 @@
-package fr.lernojo.logger;
+package fr.lernejo.logger;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

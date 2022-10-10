@@ -1,4 +1,4 @@
-package fr.lernojo.logger;
+package fr.lernejo.logger;
 
 public class CompositeLogger implements Logger{
     private final Logger logger1;
