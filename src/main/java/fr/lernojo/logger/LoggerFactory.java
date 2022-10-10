@@ -2,9 +2,10 @@ package fr.lernojo.logger;
 
 public class LoggerFactory {
     public static Logger getLogger(String name){
-        // File Logger
+        // Filtered File Logger
         Logger fileLogger = new FileLogger("output.txt");
-        Logger contextualFileLogger = new ContextualLogger(name, fileLogger);
+        Logger filteredFileLogger = new FilteredLogger(fileLogger, message -> message.contains("simulation"));
+        Logger contextualFileLogger = new ContextualLogger(name, filteredFileLogger);
 
         // Console Logger
         Logger consoleLogger = new ConsoleLogger();

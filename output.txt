@@ -24,3 +24,6 @@
 2022-10-10 18:40:14.761 Simulation You guessed the right number
 2022-10-10 18:40:14.767 Simulation 01:04.119
 2022-10-10 18:40:14.769 Simulation The player win
+2022-10-10 19:27:14.425 Simulation You guessed the right number
+2022-10-10 19:27:14.437 Simulation 00:45.868
+2022-10-10 19:27:14.439 Simulation The player win
